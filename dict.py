@@ -1,7 +1,9 @@
 import json #to read json file 
 import difflib # difference library for comparing different possible values and in this case possible case of matching the words. 
 from difflib import get_close_matches #it is method that deals with the close up values and is an algorithm to find possible match with cutoff limiter.
-
+"""
+this is done after git-connected.
+"""
 
 data = json.load(open("data.json")) #loading json file
 
